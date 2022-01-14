@@ -8,4 +8,6 @@ func main() {
 	anotherCards := newDeckFromFile("myCards.txt")
 
 	anotherCards.print()
+	anotherCards.shuffle()
+	anotherCards.print()
 }
