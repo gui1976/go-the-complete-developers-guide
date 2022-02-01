@@ -23,4 +23,14 @@ func main() {
 	alex.contact.zipCode = 1234
 
 	fmt.Println(alex)
+
+	jim := person{
+		firstName: "Jim",
+		lastName:  "Party",
+		contact: contactInfo{
+			email:   "jim@whatever.com",
+			zipCode: 94000,
+		},
+	}
+	fmt.Printf("%+v", jim)
 }
